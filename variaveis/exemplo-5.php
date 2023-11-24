@@ -2,8 +2,9 @@
 
 $nome = "Glaucio";
 
+//ESCOPO {} DENTRO DA FUNÇÃO NADA FUNCIONA DE FORA DELE
 function teste() {
-
+//USE O GLOBAL PARA BUSCAR VARIAVEIS DE FORA DA FUNÇÃO
     global $nome;
     echo $nome;
 
