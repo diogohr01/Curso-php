@@ -2,7 +2,6 @@
 
 $pessoas = array();
 
-//LANÇA MAIS UM VALOR DE ARRAY
 array_push($pessoas, array(
 
     'nome'=>'João',
@@ -16,7 +15,7 @@ array_push($pessoas, array(
     'idade'=>25
 
 ));
-//PRINTA O NOME DA PESSOA QUE DEU PUSH
-print_r($pessoas[0]['nome']);
+
+echo json_encode($pessoas);// TRANSFORMA ARRAY PARA JSON
 
 ?>
